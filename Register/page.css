@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #67f2d8, #bbe2e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: #fff;
+    background: url(../assets/switerland.jpg) center/cover no-repeat;
+    filter: brightness(95%);
+    padding: 25px 25px;
+    border-radius: 10px;
+    box-shadow: 15px 5px 25px rgba(0, 0, 0, 0.2);
+    width: 420px;
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #161f37;
+}
+
+form label {
+
+    display: block;
+    margin-bottom: 8px;
+    color: #3772e7;
+    font-weight: bold;
+}
+
+form input,
+form select{
+
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #3ed6ee;
+    font-size: 14px;
+
+}
+
+button{
+
+    width: 100%;
+    padding: 10px;
+    background-color: #74ebd5;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+button:hover{
+    background-color: #57cfc1;
+}
+
+h4{
+    color: #000000;
+}
+
+h5 a{
+    color: rgb(128, 237, 154);
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
